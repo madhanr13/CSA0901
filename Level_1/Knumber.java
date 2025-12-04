@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Knumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int m = sc.nextInt();  
+        int n = sc.nextInt(); 
+        int k = sc.nextInt(); 
+
+        for(int i = m; i<= n ; i++){
+            if(i % k == 0){
+                continue;
+            } 
+            System.out.print(i + " ");
+        }
+    }
+}
